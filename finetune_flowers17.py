@@ -6,8 +6,8 @@ from preprocessing_tools.image_to_array_preprocessor import ImageToArrayPreproce
 from preprocessing_tools.datasetloader import SimpleDatasetLoader
 from fc_headnet import FCHeadNet
 from keras.preprocessing.image import ImageDataGenerator
-from keras.optimizers import RMSprop, SGD
-from keras.applications import VGG16
+from tensorflow.keras.optimizers import RMSprop, SGD
+from tensorflow.keras.applications import VGG16
 from keras.layers import Input
 from keras.models import Model
 from imutils import paths
